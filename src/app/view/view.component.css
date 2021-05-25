@@ -80,14 +80,20 @@ h2 {
 
   }
   .right{
-       
+    
     width: 100%;
     text-align: center;
 }
 .paperes-menu{
+  display: flex;
     width: 200px;
     text-align: center;
 }
 input{
     
+}
+p{
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
 }
