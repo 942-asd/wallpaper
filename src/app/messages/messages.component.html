@@ -1,0 +1,10 @@
+<div class="main">
+    <div *ngIf="messageService.messages.length">
+
+    <h3>查看过的天气记录在这里哦！</h3>
+   <hr>
+    <div *ngFor='let message of messageService.messages'> {{message}} </div>
+   <button class="clear"
+            (click)="messageService.clear()">清除</button>
+</div>
+</div>

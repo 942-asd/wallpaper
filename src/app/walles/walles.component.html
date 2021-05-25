@@ -1,0 +1,64 @@
+
+<div class="main">
+
+  <pre>
+
+天
+            
+气
+                
+记
+                
+录
+                
+簿
+  </pre>
+      
+    <div class="right">
+     
+      <h2>天气纪录簿</h2>
+      <ul class="paperes">
+        <li *ngFor="let paper of paper">
+          <a routerLink="/detail/{{paper.id}}">
+            <span class="badge">{{paper.id}}</span> {{paper.name}}
+          </a> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      
+          <button class="delete" title="delete paper"
+    (click)="delete(paper)">删除</button>  
+        </li>
+      </ul>
+    </div>
+            
+    <div class="left">
+      <img src="/assets/花 (1).png" height="600px" >
+      </div> 
+     
+
+    
+      
+</div>   
+  <p>(｡･∀･)ﾉﾞ嗨，欢迎来访</p>   
+    
+  
+          
+     
+
+
+ 
+
+
+
+ 

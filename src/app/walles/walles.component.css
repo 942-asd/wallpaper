@@ -1,0 +1,125 @@
+/* paperesComponent's private CSS styles */
+.paperes {
+ 
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 40em;
+
+}
+input{
+  height: 30px;
+  width: 30px;
+  color: #fff;
+
+}
+.paperes li {
+ 
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+  
+}
+.paperes li:hover {
+  
+  color: #EEA9B3;
+  background-color: #DDD;
+  left: .1em;
+  
+}
+.paperes li.selected {
+  
+  background-color: #CFD8DC;
+  color: white;
+  
+}
+.paperes li.selected:hover {
+ 
+  background-color: #BBD8DC;
+  color: white;
+  
+}
+.paperes .badge {
+  
+
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color:#6864A2;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+
+}
+
+
+
+.main.right{
+  margin-top: 3px;
+  margin-right: 100px;
+  margin-right: 100px;
+  height: 200px;
+  display: flex;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+text-align: center;
+}
+
+
+.main{
+  width: 100%;
+  height: 620px;
+  background-color: #EEA9B3;
+  display: flex;
+  /* background-color:rgb(248,195,205); */
+  
+}
+
+p{
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+}
+pre{
+  margin-top: 0px;
+  color: #6864A2;
+  text-align: center;
+  font-size: 50px;
+  background-color: #DDD;
+  height: 620px;
+  width: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+  font-size: 50px;
+      color: #fff;
+      height: 100px;
+    text-align: center;
+    margin-bottom: 0;
+}
+delete{
+  
+    margin-top: 50px;
+    background-color: #DDD;
+    /* margin-bottom: 12px;
+    padding: 1rem;
+    border-radius: 4px; */
+    font-size: 20px;
+  }
+  .delete:hover {
+    color: white;
+    background-color: #42545C;
+  }
+

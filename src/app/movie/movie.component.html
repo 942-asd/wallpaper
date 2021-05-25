@@ -1,0 +1,31 @@
+<div class="main">
+    <div class="left">
+        <pre>
+
+天
+            
+气
+            
+记
+            
+录
+            
+簿
+        </pre>  
+    </div>
+    <div class="right">
+
+        <h3 for="new-paper">新的天气状况</h3>
+        <br><br>
+
+    <!-- (click) passes input value to add() and then clears the input -->
+     <input id="new-paper" #paperName />
+     <button class="add-button" (click)="add(paperName.value); paperName.value=''">
+    添加
+     </button>
+    
+     
+    </div>
+    
+  </div>
+  <p>(｡･∀･)ﾉﾞ嗨，欢迎来访</p>   

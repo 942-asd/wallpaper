@@ -1,0 +1,93 @@
+
+
+  .main{
+    width: 100%;
+    height: 620px;
+    background-color: #EEA9B3;
+    display: flex;
+    /* background-color:rgb(248,195,205); */
+  }
+  pre{
+    margin-top: 0px;
+    color: #6864A2;
+    text-align: center;
+    font-size: 50px;
+    background-color: #DDD;
+    height: 620px;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p{
+    
+    color: #fff;
+    font-size: 17px;
+  }
+  /* DashboardComponent's private CSS styles */
+
+h2 {
+    text-align: center;
+  }
+  
+  .paperes-menu {
+    
+  
+
+  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  a {
+    background-color: #3f525c;
+    border-radius: 2px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    min-width: 70px;
+    margin: .5rem auto;
+    box-sizing: border-box;
+  
+    /* flexbox */
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+  }
+  
+  @media (min-width: 600px) {
+    a {
+     
+      box-sizing: content-box;
+    }
+  }
+  
+  a:hover {
+    background-color: black;
+  }
+  
+  h3{
+    font-size: 50px;
+    color: #fff;
+    height: 100px;
+  
+
+  }
+  .right{
+       
+    width: 100%;
+    text-align: center;
+}
+.paperes-menu{
+    width: 200px;
+    text-align: center;
+}
+input{
+    
+}

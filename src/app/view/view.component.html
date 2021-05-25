@@ -1,0 +1,38 @@
+
+<div class="main">
+    <div class="left">
+         <pre>
+
+天
+            
+气
+                        
+记
+                        
+录
+                        
+簿
+    </pre>
+    </div>
+    
+    <div class="right">
+         <h3>进  入  查  找</h3>    
+        <app-paper-search></app-paper-search> 
+           
+            <div class="paperes-menu">
+              
+              <a *ngFor="let paper of paperes"
+                  routerLink="/detail/{{paper.id}}">
+                  {{paper.name}}
+                    
+              </a>
+               
+            </div>
+        
+    </div>
+  
+ 
+
+
+</div>
+    <p>(｡･∀･)ﾉﾞ嗨，欢迎来访</p>   

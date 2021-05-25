@@ -1,0 +1,42 @@
+<div class="main">
+  <div class="left">
+     <pre>
+
+天
+            
+气
+                  
+记
+                  
+录
+                  
+簿
+</pre>
+</div>
+ 
+<div class="right">
+  <h2>点击首页天气目录试试看,这里会出现具体详情哦！<br>
+  当你想修改某次的天气纪录时，修改后请记得点击下方保存按钮。</h2>
+  <div *ngIf="paper">
+
+    <h2>{{paper.name | uppercase}} 天气记录</h2>
+    <div><span>编号: </span>{{paper.id}}</div>
+     <hr>
+    <div>
+      <label>天气状况：
+        <input [(ngModel)]="paper.name" placeholder="name"/>
+        
+      </label>
+      <hr>
+    </div>
+  
+  </div>
+  
+   <button class="save"
+   (click)="save()">保存</button><br>
+   <button class="clear"
+   (click)="goBack()">回到首页/上一步</button>
+</div>
+      
+</div>
+<p>(｡･∀･)ﾉﾞ嗨，欢迎来访</p>   
