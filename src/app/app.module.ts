@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { PaperSearchComponent } from './paper-search/paper-search.component';
+import { BaogaoComponent } from './baogao/baogao.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +24,7 @@ import { PaperSearchComponent } from './paper-search/paper-search.component';
     WallDetailComponent,
     MessagesComponent,
     PaperSearchComponent,
+    BaogaoComponent,
  
   ],
   imports: [

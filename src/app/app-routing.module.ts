@@ -5,6 +5,7 @@ import { ViewComponent} from './view/view.component';
 import {PetComponent} from './pet/pet.component';
 import {MovieComponent} from './movie/movie.component';
 import { WallDetailComponent } from './wall-detail/wall-detail.component';
+import {BaogaoComponent} from './baogao/baogao.component';
 const routes: Routes = [
   {
     path: 'Walles',
@@ -21,8 +22,11 @@ const routes: Routes = [
   { path: 'Movie',
     component:  MovieComponent
   },
- 
   { path: 'detail/:id', component: WallDetailComponent },
+  {
+    path: 'Baogao',
+    component: BaogaoComponent
+  },
  
 ];
 
