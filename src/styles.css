@@ -1,7 +1,9 @@
 
    .logo{
 	display: flex;
+	background-image: url(./assets/花.png); 
    }
+   
     .nav{
        min-width: 900px;
         display: flex;
